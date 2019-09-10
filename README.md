@@ -1,4 +1,4 @@
-# homework_assignment_1
+# homework_assignment
 Hello everyone!
 I m very excited to share with you my projects. 
 I hope you find valueble information. 
