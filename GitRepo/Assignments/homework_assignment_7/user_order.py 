@@ -1,0 +1,22 @@
+#Carlos Cipriano
+#0719076
+#11/02/19
+#MSITM 6341
+
+display = {'Chicken': 10.0, 'Mashed Potatoes': 5.0, 'Ribs': 15.0, 'French Fries': 4.0, 'Coke': 5.0}
+requested_items = []
+
+S=input("Enter the item ")
+while S!="N":
+   requested_items.append(S)
+   S = input("Enter the item ")
+
+total = 0
+for x in requested_items:
+    if x not in display.keys():
+        print('We do not have ' + x)
+    else:
+        print(x + ": $" + str(display[x]))
+        total =  total + display[x]
+
+print('-----------------------------\n Order Total: $' + str(total))
